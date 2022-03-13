@@ -1,0 +1,17 @@
+{
+  "name": "airdrop",
+  "version": "1.0.0",
+  "description": "get stakers and balance for airdrop",
+  "type": "module",
+  "main": "getStakers.js",
+  "scripts": {
+    "start": "node ./getStakers.js"
+  },
+  "author": "@risasoftstaking",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.2",
+    "node-fetch": "^3.2.0",
+    "xlsx": "^0.18.2"
+  }
+}
