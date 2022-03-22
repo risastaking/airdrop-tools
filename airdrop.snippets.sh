@@ -12,8 +12,7 @@ airDropStart() {
       --pem=${PEM} --recall-nonce --receiver=$receiver --value=0 \
       --gas-limit 500000 --chain=1 --proxy=${PROXY} \
       --data=ESDTTransfer@${TOKEN_ID_HEX}@${amount%%[[:space:]]} #\
-      #--send
-      sleep 10
+      #--send --wait-result
   done < $fileInput
 }
 
